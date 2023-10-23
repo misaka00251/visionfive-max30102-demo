@@ -26,6 +26,8 @@ sudo dnf install python python3-tkinter
 ```bash
 git clone https://github.com/doug-burrell/max30102.git
 cd max30102
+sudo pip install numpy
+sudo pip install smbus
 ```
 
 ## 连接线路
@@ -36,7 +38,7 @@ cd max30102
 
 ## 开始点灯
 
-在 `py-neopixel-spidev` 目录内运行:
+下载 `gui_max30102.py` 至 `max30102` 目录内，并输入指令运行:
 
 ```bash
 sudo python3 gui_max30102.py
